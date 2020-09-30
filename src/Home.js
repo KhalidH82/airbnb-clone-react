@@ -1,8 +1,14 @@
 import React from "react";
 import "./Home.css";
+import Banner from "./Banner";
 
 function Home() {
-  return <div className="home"></div>;
+  return (
+    <div className="home">
+      HOME
+      <Banner />
+    </div>
+  );
 }
 
 export default Home;
